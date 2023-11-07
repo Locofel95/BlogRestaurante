@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagenes/Logo.jpg" alt="Logo del restaurante">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home-en.html">Home</a></li>
+                <li><a href="menu-en.html">Menu</a></li>
+                <li><a href="confirmacion-en.html">Confirmation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Reservation Confirmation</h2>
+        
+        <p>Please provide the following details to confirm your reservation:</p>
+
+        <form id="reservation-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br>
+
+            <button type="submit">Confirm Reservation</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 International Restaurant. All rights reserved. | <a href="confirmation.html">Español</a></p>
+    </footer>
+</body>
+</html>
